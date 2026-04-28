@@ -59,12 +59,12 @@ ul{
 }
 
 }
-@media ( max-width: 355px) {
+@media ( max-width: 375px) {
     ul{
     flex-direction: column;
     }
     .header{
-        width: 355px;
+        width: 375px;
     }
     .container{
         justify-content: space-around;
