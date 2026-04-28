@@ -80,3 +80,24 @@ ul{
 }
 
 }
+@media ( max-width: 440px) {
+    ul{
+    flex-direction: column;
+    }
+    .header{
+        width: 440px;
+    }
+    .container{
+        justify-content: space-around;
+        gap: 50px;
+        width: 655px;
+        flex-direction: column;
+    }
+    .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+
+}
