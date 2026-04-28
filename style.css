@@ -31,3 +31,52 @@ ul{
     align-items: center;
     justify-content: space-around;
 }
+
+
+
+
+
+/*  Mobile version */
+
+
+@media ( max-width: 768px) {
+    ul{
+    flex-direction: row;
+    }
+    .header{
+        width: 760px;
+    }
+    .container{
+        justify-content: space-around;
+        gap: 50px;
+        width: 768px;
+    }
+    .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+
+}
+@media ( max-width: 355px) {
+    ul{
+    flex-direction: column;
+    }
+    .header{
+        width: 355px;
+    }
+    .container{
+        justify-content: space-around;
+        gap: 50px;
+        width: 355px;
+        flex-direction: column;
+    }
+    .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+
+}
